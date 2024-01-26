@@ -1,5 +1,5 @@
-import './App.css';
-import { Navigation } from './Routes';
+import "./App.css";
+import { Navigation } from "./Routes";
 
 function App() {
   return (
