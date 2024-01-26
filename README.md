@@ -21,6 +21,8 @@ KTPBostonU.com is a website designed for [provide a brief description of the web
 ## Usage
 To use the website, simply enter KTPBostonU.com into the search bar or follow this link to our [website](https://ktpbostonu.com/index.html).
 
+To run the react website, use the command "npm start" in the terminal.
+
 ## Contributing
 We welcome contributions to improve KTPBostonU.com. If you would like to contribute, please follow these guidelines:
 
