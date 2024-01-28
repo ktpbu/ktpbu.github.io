@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom"
-import { Contact, Home, Members, Rush, NotFound } from './pages';
+import { Contact, Home, Members, Rush, HackKTP, AboutKTP, NotFound } from './pages';
 
 export const Navigation = () => {
     return (
@@ -9,6 +9,8 @@ export const Navigation = () => {
                 <Route path="/rush" element={<Rush />} />
                 <Route path="/members" element={<Members />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="/hackktp" element={<HackKTP />} />
+                <Route path="/aboutktp" element={<AboutKTP />} />
                 <Route path="*" element={<NotFound />} />
             </Routes>
         </Router>
