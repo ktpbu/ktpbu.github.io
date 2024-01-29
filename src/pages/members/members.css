@@ -1,0 +1,16 @@
+* {
+  text-align: center;
+}
+
+.members_section {
+  color: blue;
+}
+
+.memmber_card_section {
+  background-color: orange;
+}
+
+.member_card img {
+  width: 10%;
+}
+
