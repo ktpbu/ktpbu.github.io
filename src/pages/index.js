@@ -1,6 +1,6 @@
 export { Contact } from './contact';
 export { Home } from './home';
-export { Rush } from './rush';
+export { Rush } from './rush/rush';
 export { Members } from './members';
 export { NotFound } from './notfound';
 export { HackKTP } from './hackKTP';
