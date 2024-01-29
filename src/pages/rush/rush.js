@@ -1,6 +1,6 @@
 import React from 'react'
 import { Navbar } from '../../components/navbar/navbar'; // Import the navbar componenet into all files.
-import Josh from '../../img/KTP/Headshots/Alpha Headshots/Josh1-min.webp';
+import Josh from '../../images/KTP/Headshots/Alpha Headshots/Josh1-min.webp';
 import './rush.css';
 
 export const Rush = () => {

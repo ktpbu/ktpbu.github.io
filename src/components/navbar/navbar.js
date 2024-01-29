@@ -1,5 +1,5 @@
 import React from 'react'
-import KTPLogo from '../../img/KTP/KTPLogos/ktplogo.png';
+import KTPLogo from '../../images/KTP/KTPLogos/ktplogo.png';
 import { Link } from "react-router-dom";
 import './navbar.css';
 
