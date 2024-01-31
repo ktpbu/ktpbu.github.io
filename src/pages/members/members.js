@@ -2,6 +2,20 @@ import React from 'react'
 import { Navbar } from '../../components/navbar/navbar'; // Import the navbar component into all files.
 import './members.css';
 
+import PaulLee from '../../images/KTP/Headshots/Founder Headshots/Paul1.webp';
+import TyeRobison from '../../images/KTP/Headshots/Founder Headshots/Tye1.webp';
+import EvanLapid from '../../images/KTP/Headshots/Founder Headshots/Evan1.webp';
+import JuliaFlynn from '../../images/KTP/Headshots/Alpha Headshots/Julia1-min.webp';
+import AnissaPatel from '../../images/KTP/Headshots/Founder Headshots/Anissa1.webp';
+import PatrickBlejwas from '../../images/KTP/Headshots/Founder Headshots/Patrick1.webp';
+import JadenHsiao from '../../images/KTP/Headshots/Founder Headshots/Jaden1.webp';
+import TimMcCorry from '../../images/KTP/Headshots/Alpha Headshots/Tim1-min.webp';
+import RyanChase from '../../images/KTP/Headshots/Alpha Headshots/Ryan1-min.webp';
+import CamilleHerzog from '../../images/KTP/Headshots/Founder Headshots/Camille1.webp';
+import GeorgeAudi from '../../images/KTP/Headshots/Founder Headshots/George1.webp';
+import JoshLeeds from '../../images/KTP/Headshots/Alpha Headshots/Josh1-min.webp';
+
+
 export const Members = () => {
   return (
     <div>
@@ -12,86 +26,82 @@ export const Members = () => {
 
         <h1>E-Board</h1>
         <div className="members-cards-container">
-
           <a href="https://www.linkedin.com/in/paul-lee-55119725a/">
             <div className="member_card">
-              <img src='../../images/KTP/Headshots/Founder Headshots/Paul1.webp' alt="Paul Lee Headshot" loading="lazy" />
-              <h2>Paul Lee<br/><span style={{color: "#7ac6d6"}}>Co-President</span></h2>
+              <img src={PaulLee} alt="Paul Lee Headshot" loading="lazy" />
+              <h2>Paul Lee<br /><span style={{ color: "#7ac6d6" }}>Co-President</span></h2>
             </div>
           </a>
-
           <a href="https://www.linkedin.com/in/tye-robison-7a2aa9259/">
             <div className="member_card">
-              <img src='../../images/KTP/Headshots/Founder Headshots/Tye1.webp' alt="Tye Robison Headshot" loading="lazy" />
-              <h2>Tye Robison<br/><span style={{color: "#7ac6d6"}}>Co-President</span></h2>
+              <img src={TyeRobison} alt="Tye Robison Headshot" loading="lazy" />
+              <h2>Tye Robison<br /><span style={{ color: "#7ac6d6" }}>Co-President</span></h2>
             </div>
           </a>
-
           <a href="https://www.linkedin.com/in/evan-lapid-077478256/">
             <div className="member_card">
-              <img src='../../images/KTP/Headshots/Founder Headshots/Evan1.webp' alt="Evan Lapid Headshot" loading="lazy" />
-              <h2>Evan Lapid<br/><span style={{color: "#7ac6d6"}}>Vice President of External Affairs</span></h2>
+              <img src={EvanLapid} alt="Evan Lapid Headshot" loading="lazy" />
+              <h2>Evan Lapid<br /><span style={{ color: "#7ac6d6" }}>Vice President of External Affairs</span></h2>
             </div>
           </a>
-
           <a href="https://www.linkedin.com/in/evan-lapid-077478256/">
             <div className="member_card">
-              <img src='../../images/KTP/Headshots/Alpha Headshots/Julia1-min.webp' alt="Julia Flynn Headshot" loading="lazy" />
-              <h2>Julia Flynn<br/><span style={{color: "#7ac6d6"}}>Vice President of Internal Affairs</span></h2>
+              <img src={JuliaFlynn} alt="Julia Flynn Headshot" loading="lazy" />
+              <h2>Julia Flynn<br /><span style={{ color: "#7ac6d6" }}>Vice President of Internal Affairs</span></h2>
             </div>
           </a>
-
           <a href="https://www.linkedin.com/in/anissa-patel/">
             <div className="member_card">
-              <img src='../../images/KTP/Headshots/Founder Headshots/Anissa1.webp' alt="Anissa Patel Headshot" loading="lazy" />
-              <h2>Anissa Patel<br/><span style={{color: "#7ac6d6"}}>Vice President of Professional Development</span></h2>
+              <img src={AnissaPatel} alt="Anissa Patel Headshot" loading="lazy" />
+              <h2>Anissa Patel<br /><span style={{ color: "#7ac6d6" }}>Vice President of Professional Development</span></h2>
             </div>
           </a>
-
           <a href="https://www.linkedin.com/in/pblej/">
             <div className="member_card">
-              <img src='../../images/KTP/Headshots/Founder Headshots/Patrick1.webp' alt="Patrick Blejwas Headshot" loading="lazy" />
-              <h2>Patrick Blejwas<br/><span style={{color: "#7ac6d6"}}>Vice President of Technical Development</span></h2>
+              <img src={PatrickBlejwas} alt="Patrick Blejwas Headshot" loading="lazy" />
+              <h2>Patrick Blejwas<br /><span style={{ color: "#7ac6d6" }}>Vice President of Technical Development</span></h2>
             </div>
           </a>
-
           <a href="https://www.linkedin.com/in/jaden-hsiao-b72a7b24b/">
             <div className="member_card">
-              <img src='../../images/KTP/Headshots/Founder Headshots/Jaden1.webp' alt="Jaden Hsiao Headshot" loading="lazy" />
-              <h2>Jaden Hsiao<br/><span style={{color: "#7ac6d6"}}>Co-Vice President of Engagement</span></h2>
+              <img src={JadenHsiao} alt="Jaden Hsiao Headshot" loading="lazy" />
+              <h2>Jaden Hsiao<br /><span style={{ color: "#7ac6d6" }}>Co-Vice President of Engagement</span></h2>
             </div>
           </a>
-
           <a href="https://www.linkedin.com/in/tim-mccorry-reynolds-2571b321a/">
             <div className="member_card">
-              <img src='../../images/KTP/Headshots/Alpha Headshots/Tim1-min.webp' alt="Tim McCorry Headshot" loading="lazy" />
-              <h2>Tim McCorry<br/><span style={{color: "#7ac6d6"}}>Co-Vice President of Engagement</span></h2>
+              <img src={TimMcCorry} alt="Tim McCorry Headshot" loading="lazy" />
+              <h2>Tim McCorry<br /><span style={{ color: "#7ac6d6" }}>Co-Vice President of Engagement</span></h2>
             </div>
           </a>
-
           <a href="https://www.linkedin.com/in/ryan-chase-84ab8a215/">
             <div className="member_card">
-              <img src='../../images/KTP/Headshots/Alpha Headshots/Ryan1-min.webp' alt="Ryan Chase Headshot" loading="lazy" />
-              <h2>Ryan Chase<br/><span style={{color: "#7ac6d6"}}>Vice President of Membership</span></h2>
+              <img src={RyanChase} alt="Ryan Chase Headshot" loading="lazy" />
+              <h2>Ryan Chase<br /><span style={{ color: "#7ac6d6" }}>Vice President of Membership</span></h2>
             </div>
           </a>
-
           <a href="https://www.linkedin.com/in/camille-kathleen-herzog/">
             <div className="member_card">
-              <img src='../../images/KTP/Headshots/Founder Headshots/Camille1.webp' alt="Camille Herzog Headshot" loading="lazy" />
-              <h2>Camille Herzog<br/><span style={{color: "#7ac6d6"}}>Vice President of Marketing</span></h2>
+              <img src={CamilleHerzog} alt="Camille Herzog Headshot" loading="lazy" />
+              <h2>Camille Herzog<br /><span style={{ color: "#7ac6d6" }}>Vice President of Marketing</span></h2>
             </div>
           </a>
-
           <a href="https://www.linkedin.com/in/george-audi-83182525a/">
             <div className="member_card">
-              <img src='../../images/KTP/Headshots/Founder Headshots/George1.webp' alt="George Audi Headshot" loading="lazy" />
-              <h2>George Audi<br/><span style={{color: "#7ac6d6"}}>Vice President of Finances</span></h2>
+              <img src={GeorgeAudi} alt="George Audi Headshot" loading="lazy" />
+              <h2>George Audi<br /><span style={{ color: "#7ac6d6" }}>Vice President of Finances</span></h2>
             </div>
           </a>
+          <a href="https://www.linkedin.com/in/josh-leeds-a21232260/">
+            <div className="member_card">
+              <img src={JoshLeeds} alt="Josh Leeds Headshot" />
+              <h2>Josh Leeds</h2>
+            </div>
+          </a>
+            {/* I forgot Josh Leeds - VP of Recruitment*/}
+
         </div>
 
-        {/* may have forgotten Josh Leeds */}
 
         {/* <h1>Beta Class</h1>
 

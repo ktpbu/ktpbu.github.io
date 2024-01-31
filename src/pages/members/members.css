@@ -11,6 +11,6 @@
 }
 
 .member_card img {
-  width: 10%;
+  max-width: 10vw;
 }
 
