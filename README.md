@@ -10,7 +10,7 @@ Welcome to the README for [KTPBostonU.com](https://ktpbostonu.com/index.html)!
 - [License](#license)
 
 ## Introduction
-KTPBostonU.com is a website designed for [provide a brief description of the website's purpose and target audience]. This README provides essential information on how to get started, the website's features, and how you can contribute to its development.
+KTPBostonU.com is a website designed to create an online presence for KTP Boston University. This README provides essential information on how to get started, the website's features, and how you can contribute to its development.
 
 ## Content
 - Significant KTP events
@@ -21,7 +21,7 @@ KTPBostonU.com is a website designed for [provide a brief description of the web
 ## Usage
 To use the website, simply enter KTPBostonU.com into the search bar or follow this link to our [website](https://ktpbostonu.com/index.html).
 
-To run the react website, use the command "npm start" in the terminal.
+To run the react website locally, use the command "npm start" in the terminal.
 
 ## Contributing
 We welcome contributions to improve KTPBostonU.com. If you would like to contribute, please follow these guidelines:
@@ -31,6 +31,7 @@ We welcome contributions to improve KTPBostonU.com. If you would like to contrib
 3. Make your changes and commit them: `git commit -m 'Add new feature'`
 4. Push to your branch: `git push origin feature/your-feature-name`
 5. Create a pull request, detailing the changes and their purpose.
+6. Someone will review your changes to make sure everything looks good, then merge them into the main branch.
 
 <!-- Please review our [Code of Conduct](CODE_OF_CONDUCT.md) and [Contributing Guidelines](CONTRIBUTING.md) before contributing. -->
 
