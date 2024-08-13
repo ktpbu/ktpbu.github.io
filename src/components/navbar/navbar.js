@@ -1,20 +1,21 @@
 import React from 'react'
-import KTPLogo from '../../images/KTP/KTPLogos/ktplogo.png';
 import { Link } from "react-router-dom";
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
+import KTPLogo from '../../images/KTP/KTPLogos/ktplogo.png';
+
 import './navbar.css';
 
-// Import Font Awesome CSS
-import '@fortawesome/fontawesome-free/css/all.min.css';
 
 export const Navbar = () => {
     return (
-    <div class="topnav" id="myTopnav">
-        <div class="social-icons">
+    <div className="topnav" id="myTopnav">
+        <div className="social-icons">
         <a
           href="https://www.facebook.com/ktpbostonu"
           rel="noopener noreferrer"
           title="Facebook"
-          ><i class="fab fa-facebook-f"></i></a>
+          ><i className="fab fa-facebook-f"></i></a>
         <a
           href="https://instagram.com/ktpbostonu?igshid=YmMyMTA2M2"
           rel="noopener noreferrer"
