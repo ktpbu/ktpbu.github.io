@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom"
-import { Contact, Home, Members, Rush, HackKTP, AboutKTP, NotFound } from './pages';
+import { Contact, Home, Rush, Members, HackKTP, AboutKTP, NotFound } from './pages';
 
 export const Navigation = () => {
     return (

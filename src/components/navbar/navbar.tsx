@@ -1,13 +1,12 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import '@fortawesome/fontawesome-free/css/all.min.css';
-
+// @ts-ignore
 import KTPLogo from '../../images/KTP/KTPLogos/ktplogo.png';
 
 import './navbar.css';
 
-
-export const Navbar = () => {
+export function Navbar () {
     return (
     <div className="topnav" id="myTopnav">
         <div className="social-icons">
@@ -20,31 +19,31 @@ export const Navbar = () => {
           href="https://instagram.com/ktpbostonu?igshid=YmMyMTA2M2"
           rel="noopener noreferrer"
           title="Instagram"
-          ><i class="fab fa-instagram"></i></a>
+          ><i className="fab fa-instagram"></i></a>
         <a
           href="https://www.youtube.com/channel/UCnAKU1RtEodVm2EL9m8vyNw"
           rel="noopener noreferrer"
           title="Youtube"
-          ><i class="fab fa-youtube" aria-hidden="true"></i></a>
+          ><i className="fab fa-youtube" aria-hidden="true"></i></a>
         <a
           href="https://www.linkedin.com/company/kappa-theta-pi-lambda-chapter/"
           rel="noopener noreferrer"
           title="LinkedIn"
-          ><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+          ><i className="fab fa-linkedin" aria-hidden="true"></i></a>
         <a
           href="https://twitter.com/KappaThetaPiBU"
           rel="noopener noreferrer"
           title="Twitter"
-          ><i class="fab fa-twitter" aria-hidden="true"></i></a>
+          ><i className="fab fa-twitter" aria-hidden="true"></i></a>
       </div>
-      <div class="nav-links">
+      <div className="nav-links">
        <Link to={"/"}>Home</Link>
-        <div class="dropdown">
-          <button class="dropbtn">
+        <div className="dropdown">
+          <button className="dropbtn">
             About
-            <i class="fa fa-caret-down"></i>
+            <i className="fa fa-caret-down"></i>
           </button>
-          <div class="dropdown-content">
+          <div className="dropdown-content">
           <Link to={"/aboutktp"}>Lambda</Link>
           <Link to={"/hackktp"}>HackKTP</Link>
           </div>
