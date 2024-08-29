@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar } from "../../components/navbar/navbar"; // Import the navbar component into all files.
+
 import "./members.css";
 
 // Beta Class
@@ -80,7 +80,6 @@ import RylieLove from "../../images/KTP/Headshots/Founder Headshots/Rylie 1.webp
 export const Members = () => {
   return (
     <div>
-      <Navbar />
       <div className="members_section">
         <h1>E-Board</h1>
 

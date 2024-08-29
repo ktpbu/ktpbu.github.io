@@ -1,8 +1,6 @@
 import React from 'react';
 import styled from 'styled-components'
 
-import { Navbar } from '../components/navbar/navbar'; // Import the navbar component into all files.
-// @ts-ignore
 import Josh from '../images/KTP/Headshots/Alpha Headshots/Josh1-min.webp';
 
 const Container = styled.div`
@@ -57,8 +55,6 @@ const Header = styled.div`
 
 export function Rush () {
   return (
-    <div>
-      <Navbar />
         <Container>
             <RushLink target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSf8aqfjmflkndRivZhKlTDrsUIOGxWPqQQqT0GAnnqypv0dug/viewform?usp=sf_link">Fall 2024 Rush Interest Form</RushLink>
             <RushVideo
@@ -86,6 +82,5 @@ export function Rush () {
                 </TextContainer>
             </ImageContainer>
         </Container>
-    </div>
   );
 }

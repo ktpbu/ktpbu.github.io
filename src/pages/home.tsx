@@ -1,14 +1,12 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 
-import { Navbar } from '../components/navbar/navbar'; // Import the navbar component into all files.
 import BrotherImage1 from "../images/Brothers/BrotherImage1.jpg";
 import BrotherImage2 from "../images/Brothers/BrotherImage2.jpg";
 
-export const Home = () => {
+export function Home () {
   return (
     <div>
-        <Navbar />
         <div className="text_section_1">
             <h1><span>" </span>For the Love of Technology!</h1>
 
@@ -53,6 +51,7 @@ export const Home = () => {
                     <i className="fa-solid fa-newspaper"></i>
                 </div>
                 <div className="jnc_text">
+                    {/* eslint-disable-next-line react/jsx-no-comment-textnodes */}
                     <h1><span>//</span>News</h1>
                     <p>Stay up to date on KTP rush and open events</p>
                 </div>

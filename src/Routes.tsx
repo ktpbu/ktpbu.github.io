@@ -1,9 +1,13 @@
+import React from "react";
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom"
+
 import { Contact, Home, Rush, Members, HackKTP, AboutKTP, NotFound } from './pages';
+import { Navbar } from "./components/navbar/navbar";
 
 export const Navigation = () => {
     return (
-        <Router> 
+        <Router>
+            <Navbar/>
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/rush" element={<Rush />} />
