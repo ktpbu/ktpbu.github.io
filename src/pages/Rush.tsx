@@ -3,6 +3,8 @@ import styled from 'styled-components'
 
 import Josh from '../images/KTP/Headshots/Alpha Headshots/Josh1-min.webp';
 
+import { Header } from './styles';
+
 const Container = styled.div`
     max-width: 100%;
     display: flex;
@@ -32,6 +34,7 @@ const ImageContainer = styled.div`
     display: flex;
     flex-direction: row;
     gap: 16px;
+    margin: 0;
 `
 
 const RushVideo = styled.iframe`
@@ -44,13 +47,6 @@ const TextContainer = styled.div`
         text-align: left;
         font-weight: 600;
     }
-`
-
-const Header = styled.div`
-    font-size: 48px;
-    color: #234c8a;
-    font-weight: bold;
-    margin-bottom: 16px;
 `
 
 export function Rush () {

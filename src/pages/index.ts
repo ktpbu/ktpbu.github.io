@@ -5,4 +5,4 @@ export { Members } from './members/members';
 export { NotFound } from './notfound';
 export { HackKTP } from './hackKTP';
 export { AboutKTP } from './aboutKTP';
-export { Privacy_Policy } from './privacy_policy';
+export { PrivacyPolicy } from './privacyPolicy';

@@ -1,16 +1,14 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-import {ReactComponent as FacebookLogo } from "../../images/icons/facebook-logo.svg";
-import {ReactComponent as InstagramLogo } from "../../images/icons/instagram-logo.svg";
-import {ReactComponent as YoutubeLogo } from "../../images/icons/youtube-logo.svg";
-import {ReactComponent as LinkedinLogo } from "../../images/icons/linkedin-logo.svg";
-import {ReactComponent as XLogo } from "../../images/icons/x-logo.svg";
-import {ReactComponent as DropdownIcon} from "../../images/icons/dropdown-icon.svg";
-import KTPLogo from '../../images/KTP/KTPLogos/ktplogo.png';
-
-import './navbar.css';
+import {ReactComponent as FacebookLogo } from "../images/icons/facebook-logo.svg";
+import {ReactComponent as InstagramLogo } from "../images/icons/instagram-logo.svg";
+import {ReactComponent as YoutubeLogo } from "../images/icons/youtube-logo.svg";
+import {ReactComponent as LinkedinLogo } from "../images/icons/linkedin-logo.svg";
+import {ReactComponent as XLogo } from "../images/icons/x-logo.svg";
+import {ReactComponent as DropdownIcon} from "../images/icons/dropdown-icon.svg";
+import KTPLogo from '../images/KTP/KTPLogos/ktplogo.png';
 
 const InvertedDropdownIcon = styled(DropdownIcon)`
     transform: rotate(180deg);
@@ -24,8 +22,8 @@ const NavLink = styled(Link)`
 `
 
 const NavContainer = styled.div`
-    background-color: #234c8a;
-    width: 100%;
+    background-color: var(--purple);
+    max-width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
